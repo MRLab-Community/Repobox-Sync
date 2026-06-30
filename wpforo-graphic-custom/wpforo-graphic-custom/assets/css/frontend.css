@@ -1,0 +1,37 @@
+/* =========================================
+   WpForo Graphic Custom - Highlight Stats
+   ========================================= */
+
+/* Stile base comune */
+.wpf-stat-box .wpf-sbd-topic, 
+.wpf-stat-box .wpf-sbd-post {
+    display: inline-block;
+    min-width: 32px;
+    height: 32px;
+    line-height: 30px; /* Compensa il bordo da 2px per centratura perfetta */
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 0; /* Reset padding per controllo totale dimensioni */
+    box-sizing: border-box;
+}
+
+/* Linea bianca interna tramite outline */
+.wpf-stat-box .wpf-sbd-topic, 
+.wpf-stat-box .wpf-sbd-post {
+    outline: 2px solid #ffffff;
+    outline-offset: -2px;
+}
+
+/* Discussioni / Topics - Giallo */
+.wpf-stat-box .wpf-sbd-topic {
+    border: 2px solid #f1c40f;
+    background-color: #f1c40f;
+}
+
+/* Post / Messaggi - Arancione */
+.wpf-stat-box .wpf-sbd-post {
+    border: 2px solid #e67e22;
+    background-color: #e67e22;
+}
